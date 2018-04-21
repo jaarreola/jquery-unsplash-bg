@@ -1,0 +1,25 @@
+{
+  "name": "jquery-unsplash-bg",
+  "version": "0.1.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaarreola/jquery-unsplash-bg.git"
+  },
+  "keywords": [
+    "jquery",
+    "unsplash",
+    "background",
+    "plugin"
+  ],
+  "author": "Jaime Arreola <jaarreola.p@gmail>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaarreola/jquery-unsplash-bg/issues"
+  },
+  "homepage": "https://github.com/jaarreola/jquery-unsplash-bg#readme"
+}
