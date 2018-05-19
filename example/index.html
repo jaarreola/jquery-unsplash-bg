@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JQUERY-UNSPLASH-BG</title>
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="random"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../src/index.js"></script>
+
+  <script>
+    window.unsplashBg.setup('6b6191ec72a0b99ed0fd5f2ddfc03f59806b7f77b97c62034ea1a50474829d2b');
+    $('#random').unsplashBg({backgroundColor: 'red'});
+  </script>
+
+</body>
+</html>

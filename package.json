@@ -1,0 +1,41 @@
+{
+  "name": "jquery-unsplash-bg",
+  "version": "0.1.0",
+  "description": "jQuery plugin to put a full background random from unsplash",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaarreola/jquery-unsplash-bg.git"
+  },
+  "keywords": [
+    "jquery",
+    "unsplash",
+    "background",
+    "plugin"
+  ],
+  "author": "Jaime Arreola <jaarreola.p@gmail>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaarreola/jquery-unsplash-bg/issues"
+  },
+  "homepage": "https://github.com/jaarreola/jquery-unsplash-bg#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "eslint": "4.19.1",
+    "jquery": "3.3.1",
+    "jsdom": "11.9.0",
+    "mocha": "5.1.1",
+    "pre-commit": "1.2.2",
+    "sinon": "5.0.3"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
